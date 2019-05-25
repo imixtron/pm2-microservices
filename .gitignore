@@ -1,0 +1,4 @@
+pm2-mongodb/*
+!pm2-mongodb/.gitkeep
+
+node_modules
