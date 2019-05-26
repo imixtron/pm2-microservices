@@ -15,8 +15,9 @@ module.exports = {
     {
       cwd: 'pm2-api',
       name: 'pm2-api',
-      script: 'index.js',
+      script: 'npm',
 
+      args: 'run build',
       restartDelay: 1000,
       instances: 1,
       autorestart: true,
@@ -38,8 +39,9 @@ module.exports = {
     {
       cwd: 'pm2-auth',
       name: 'pm2-auth',
-      script: 'index.js',
+      script: 'npm',
 
+      args: 'run build',
       restartDelay: 1000,
       instances: 1,
       autorestart: true,
